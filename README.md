@@ -29,13 +29,14 @@ pip install PyPDF2
 
 - Download this [Zip-File](https://github.com/Plompii/PDF-Merger/archive/main.zip) and extract the folder
 
-- Now install the module `PIL` and `PyPDF2`, the other modules used are already installed with Python's standard libary:
+- Now install the modules `PIL` and `PyPDF2`, the other modules used are already installed with Python's standard libary:
 ```
-pip install pygame
+pip install Pillow
+pip install PyPDF2
 ```
 
 ## Using
-- run the Reversi.py file:
+- run the PDFMerge.py file:
 ```
-[Directory of the folder] python Reversi.py
+[Directory of the folder] python PDFMerge.py
 ```
