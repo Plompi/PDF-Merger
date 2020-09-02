@@ -40,3 +40,4 @@ pip install PyPDF2
 ```
 [Directory of the folder] python PDFMerge.py
 ```
+ 
