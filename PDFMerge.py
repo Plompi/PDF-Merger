@@ -32,6 +32,7 @@ def fileopen():
     root.mainloop()
     return
 
+
 def merge():
     saveas = filedialog.asksaveasfilename(defaultextension = ".pdf")
     if saveas == "":
