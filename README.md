@@ -4,7 +4,7 @@
 ### Requirements
 **Python:**
 <br/>
-The application was written in python version [3.8.5](https://www.python.org/downloads/release/python-376/)
+The application was written in python version [3.8.5](https://www.python.org/downloads/release/python-385/)
 <br/>
 You can also use the newest stable python release (no guarantee that it will work)
 ## Setting up
@@ -40,4 +40,3 @@ pip install PyPDF2
 ```
 [Directory of the folder] python PDFMerge.py
 ```
- 
