@@ -9,7 +9,7 @@ pdf_writer = PdfFileWriter()
 root = tkinter.Tk()
 root.focus_force()
 root.title("PDF-Merge")
-
+root.iconbitmap(default='assets/Icon.ico')
 
 w = 600
 h = 500
@@ -22,7 +22,7 @@ root.geometry('%dx%d+%d+%d' % (w, h, x, y))
 
 def fileopen():
     global files
-    files = filedialog.askopenfilenames(parent=root,title = "PDF's auswählen!")
+    files = filedialog.askopenfilenames(parent=root,title = "PDF-File Selector")
     if files == "":
         return
     roundedbutton["command"] = merge
