@@ -9,7 +9,6 @@ pdf_writer = PdfFileWriter()
 root = tkinter.Tk()
 root.focus_force()
 root.title("PDF-Merge")
-root.geometry("600x500")
 
 
 w = 600
