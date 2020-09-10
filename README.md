@@ -27,7 +27,7 @@ pip install PyPDF2
 
 **Windows:**
 
-- Download this [Zip-File](https://github.com/Plompii/PDF-Merger/archive/main.zip) and extract the folder
+- Download this [Zip-File](https://github.com/Plompii/PDF-Merger/archive/master.zip) and extract the folder
 
 - Now install the modules `PIL` and `PyPDF2`, the other modules used are already installed with Python's standard libary:
 ```
