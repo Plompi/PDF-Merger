@@ -11,18 +11,17 @@ root.focus_force()
 root.title("PDF-Merge")
 root.iconbitmap(default='assets/Icon.ico')
 
-w = 600
-h = 500
+
 ws = root.winfo_screenwidth()
 hs = root.winfo_screenheight()
-x = (ws/2) - (w/2)
-y = (hs/2) - (h/2)
-root.geometry('%dx%d+%d+%d' % (w, h, x, y))
+x = (ws/2) - (600/2)
+y = (hs/2) - (500/2)
+root.geometry('%dx%d+%d+%d' % (600, 500, x, y))
 
 
 def fileopen():
     global files
-    files = filedialog.askopenfilenames(parent=root,title = "PDF-File Selector")
+    files = filedialog.askopenfilenames(parent=root,title = "PDF-File Selector",filetypes=[("PDF files","*.pdf")])
     if files == "":
         return
     roundedbutton["command"] = merge
