@@ -1,4 +1,5 @@
-# PDF-Merger
+<img src="https://github.com/Plompi/PDF-Merger/blob/master/assets/Merger.png">
+
 :wave: Hey, this repository contains the files to use this PDF-Merger
 
 ### Requirements
